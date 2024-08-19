@@ -27,7 +27,4 @@ public class Persona implements Serializable {
     private String nombre;
     private String apellido;
 
-    public String toSrting(){
-        return ("Nombre:" +nombre+"\nApellido:"+apellido);
-    }
 }
